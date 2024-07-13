@@ -1,0 +1,25 @@
+@FEATURE_DEMOBLAZE
+Característica: Validación del formulario  de Sign up de la página DemoBlaze
+  Como propietario del sistema DemoBlaze
+  Quiero probar el formulario de Sign up
+  Para validar el buen funcionamiento de los elementos y el registro
+
+  @DEMOBLAZE_SCENARIO_02
+  Esquema del escenario: Validar compra DemoBlaze [90m# src/test/resources/web/DemoBlaze.feature:22[0m
+    [36mDado que abre la página web DemoBlaze en el navegdor de "<NAVEGADOR>"[0m
+    [36mCuando selecciona un producto[0m
+    [36mY clic en anadir carrito[0m
+    [36mY visualizar carrito y anadir compra[0m
+    [36mEntonces completar datos formulario "<name>" "<country>" "<city>" "<credit>" "<month>" "<year>"[0m
+    [36mY Validamos el mensaje de de compra[0m
+
+    Ejemplos: 
+
+  @FEATURE_DEMOBLAZE @DEMOBLAZE_SCENARIO_02
+  Esquema del escenario: Validar compra DemoBlaze                                         [90m# src/test/resources/web/DemoBlaze.feature:31[0m
+    [32mDado [0m[32mque abre la página web DemoBlaze en el navegdor de "[0m[32m[1mchrome[0m[32m"[0m                      [90m# DemoBlazeStepDefinition.queAbreLaPáginaWebDemoBlazeEnElNavegdorDe(String)[0m
+    [32mCuando [0m[32mselecciona un producto[0m                                                         [90m# DemoBlazeStepDefinition.seleccionaUnProducto()[0m
+    [32mY [0m[32mclic en anadir carrito[0m                                                              [90m# DemoBlazeStepDefinition.clicEnAnadirCarrito()[0m
+    [32mY [0m[32mvisualizar carrito y anadir compra[0m                                                  [90m# DemoBlazeStepDefinition.visualizarCarritoYAnadirCompra()[0m
+    [32mEntonces [0m[32mcompletar datos formulario "[0m[32m[1mMARCOS[0m[32m" "[0m[32m[1mPeru[0m[32m" "[0m[32m[1mPiura[0m[32m" "[0m[32m[1m455555000[0m[32m" "[0m[32m[1m1000[0m[32m" "[0m[32m[1m2024[0m[32m"[0m [90m# DemoBlazeStepDefinition.completarDatosFormulario(String,String,String,String,String,String)[0m
+    [32mY [0m[32mValidamos el mensaje de de compra[0m                                                   [90m# DemoBlazeStepDefinition.validamosElMensajeDeDeCompra()[0m

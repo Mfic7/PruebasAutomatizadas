@@ -1,0 +1,144 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 31,
+        "name": "Validar compra DemoBlaze",
+        "description": "",
+        "id": "validación-del-formulario--de-sign-up-de-la-página-demoblaze;validar-compra-demoblaze;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6539716900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "que abre la página web DemoBlaze en el navegdor de \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 52
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.queAbreLaPáginaWebDemoBlazeEnElNavegdorDe(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1325728500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "selecciona un producto",
+            "match": {
+              "location": "DemoBlazeStepDefinition.seleccionaUnProducto()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 4215077200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "clic en anadir carrito",
+            "match": {
+              "location": "DemoBlazeStepDefinition.clicEnAnadirCarrito()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 3599041300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "visualizar carrito y anadir compra",
+            "match": {
+              "location": "DemoBlazeStepDefinition.visualizarCarritoYAnadirCompra()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1193244900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "completar datos formulario \"MARCOS\" \"Peru\" \"Piura\" \"455555000\" \"1000\" \"2024\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MARCOS",
+                  "offset": 28
+                },
+                {
+                  "val": "Peru",
+                  "offset": 37
+                },
+                {
+                  "val": "Piura",
+                  "offset": 44
+                },
+                {
+                  "val": "455555000",
+                  "offset": 52
+                },
+                {
+                  "val": "1000",
+                  "offset": 64
+                },
+                {
+                  "val": "2024",
+                  "offset": 71
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.completarDatosFormulario(String,String,String,String,String,String)"
+            },
+            "keyword": "Entonces "
+          },
+          {
+            "result": {
+              "duration": 6045588100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Validamos el mensaje de de compra",
+            "match": {
+              "location": "DemoBlazeStepDefinition.validamosElMensajeDeDeCompra()"
+            },
+            "keyword": "Y "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FEATURE_DEMOBLAZE"
+          },
+          {
+            "name": "@DEMOBLAZE_SCENARIO_02"
+          }
+        ]
+      }
+    ],
+    "name": "Validación del formulario  de Sign up de la página DemoBlaze",
+    "description": "  Como propietario del sistema DemoBlaze\n  Quiero probar el formulario de Sign up\n  Para validar el buen funcionamiento de los elementos y el registro",
+    "id": "validación-del-formulario--de-sign-up-de-la-página-demoblaze",
+    "keyword": "Característica",
+    "uri": "src/test/resources/web/DemoBlaze.feature",
+    "tags": [
+      {
+        "name": "@FEATURE_DEMOBLAZE",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
